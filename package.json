@@ -1,0 +1,14 @@
+{
+  "name": "symbol-sdk-signing-perf-v2-and-v3",
+  "description": "Symbol SDK Signing Performance v2 and v3.",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "symbol-sdk": "^3.0.7",
+    "symbol-sdk-v2": "npm:symbol-sdk@^2.0.4"
+  }
+}
